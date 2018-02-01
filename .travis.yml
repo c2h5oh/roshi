@@ -1,12 +1,13 @@
+dist: trusty
 language: go
 
 go:
     - tip
-    - 1.5
-    - 1.4
+    - 1.9
+    - 1.8
 
-services:
-    - redis-server
+install:
+    - go get ./...
 
 env:
     - TEST_REDIS_ADDRESSES=localhost:6379
