@@ -6,6 +6,9 @@ go:
     - 1.9
     - 1.8
 
+services:
+    - redis
+
 install:
     - go get ./...
 
