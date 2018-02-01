@@ -7,8 +7,8 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/soundcloud/roshi/cluster"
-	"github.com/soundcloud/roshi/common"
+	"github.com/c2h5oh/roshi/cluster"
+	"github.com/c2h5oh/roshi/common"
 )
 
 func TestMockCluster(t *testing.T) {

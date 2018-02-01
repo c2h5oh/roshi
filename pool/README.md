@@ -1,6 +1,6 @@
 # pool
 
-[![GoDoc](https://godoc.org/github.com/soundcloud/roshi/pool?status.png)](https://godoc.org/github.com/soundcloud/roshi/pool)
+[![GoDoc](https://godoc.org/github.com/c2h5oh/roshi/pool?status.png)](https://godoc.org/github.com/c2h5oh/roshi/pool)
 
 Package pool connects to multiple physical Redis instances, and emulates a
 single logical Redis instance. Clients are expected (but not required) to use

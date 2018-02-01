@@ -7,7 +7,7 @@ import (
 
 	"github.com/garyburd/redigo/redis"
 
-	"github.com/soundcloud/roshi/pool"
+	"github.com/c2h5oh/roshi/pool"
 )
 
 func TestRecovery(t *testing.T) {

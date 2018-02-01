@@ -1,4 +1,4 @@
-# roshi [![Build Status](https://travis-ci.org/soundcloud/roshi.png)](https://travis-ci.org/soundcloud/roshi) [![GoDoc](https://godoc.org/github.com/soundcloud/roshi?status.svg)](http://godoc.org/github.com/soundcloud/roshi)
+# roshi [![Build Status](https://travis-ci.org/soundcloud/roshi.png)](https://travis-ci.org/soundcloud/roshi) [![GoDoc](https://godoc.org/github.com/c2h5oh/roshi?status.svg)](http://godoc.org/github.com/c2h5oh/roshi)
 
 Roshi implements a time-series event storage via a LWW-element-set CRDT with
 limited inline garbage collection. Roshi is a stateless, distributed layer on
@@ -37,11 +37,11 @@ Next, we will explain the system design.
 
 ## CRDT
 
-CRDTs (conflict-free replicated data types) are data types on which the same 
-set of operations yields the same outcome, regardless of order of execution 
-and duplication of operations. This allows data convergence without the need 
-for consenus between replicas. In turn, this allows for easier implementation 
-(no consensus protocol implementation) as well as lower latency (no wait-time 
+CRDTs (conflict-free replicated data types) are data types on which the same
+set of operations yields the same outcome, regardless of order of execution
+and duplication of operations. This allows data convergence without the need
+for consenus between replicas. In turn, this allows for easier implementation
+(no consensus protocol implementation) as well as lower latency (no wait-time
 for consensus).
 
 Operations on CRDTs need to adhere [to the following rules][mixu]:
@@ -133,7 +133,7 @@ all replicas.
 [Package farm][farm] explains replication, read strategies, and read-repair
 further.
 
-[farm]: http://github.com/soundcloud/roshi/tree/master/farm
+[farm]: http://github.com/c2h5oh/roshi/tree/master/farm
 
 ## Fault tolerance
 
@@ -284,13 +284,13 @@ job with a relatively small surface area. From the bottom up...
   repairs.
 
 [sorted-set]: http://redis.io/commands#sorted_set
-[pool]: http://github.com/soundcloud/roshi/tree/master/pool
-[cluster]: http://github.com/soundcloud/roshi/tree/master/cluster
+[pool]: http://github.com/c2h5oh/roshi/tree/master/pool
+[cluster]: http://github.com/c2h5oh/roshi/tree/master/cluster
 [commutativity]: http://en.wikipedia.org/wiki/Commutative_property
-[farm]: http://github.com/soundcloud/roshi/tree/master/farm
-[roshi-server]: http://github.com/soundcloud/roshi/tree/master/roshi-server
+[farm]: http://github.com/c2h5oh/roshi/tree/master/farm
+[roshi-server]: http://github.com/c2h5oh/roshi/tree/master/roshi-server
 [twelve]: http://12factor.net
-[roshi-walker]: http://github.com/soundcloud/roshi/tree/master/roshi-walker
+[roshi-walker]: http://github.com/c2h5oh/roshi/tree/master/roshi-walker
 
 ## The big picture
 

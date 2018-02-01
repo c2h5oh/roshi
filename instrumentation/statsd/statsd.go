@@ -4,8 +4,8 @@ package statsd
 import (
 	"time"
 
+	"github.com/c2h5oh/roshi/instrumentation"
 	"github.com/peterbourgon/g2s"
-	"github.com/soundcloud/roshi/instrumentation"
 )
 
 // Satisfaction guaranteed.

@@ -13,9 +13,9 @@ import (
 
 	"github.com/garyburd/redigo/redis"
 
-	"github.com/soundcloud/roshi/common"
-	"github.com/soundcloud/roshi/instrumentation"
-	"github.com/soundcloud/roshi/pool"
+	"github.com/c2h5oh/roshi/common"
+	"github.com/c2h5oh/roshi/instrumentation"
+	"github.com/c2h5oh/roshi/pool"
 )
 
 func init() {

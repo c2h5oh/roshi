@@ -3,9 +3,9 @@ package farm
 import (
 	"log"
 
-	"github.com/soundcloud/roshi/cluster"
-	"github.com/soundcloud/roshi/common"
-	"github.com/soundcloud/roshi/instrumentation"
+	"github.com/c2h5oh/roshi/cluster"
+	"github.com/c2h5oh/roshi/common"
+	"github.com/c2h5oh/roshi/instrumentation"
 
 	"github.com/tsenart/tb"
 )
@@ -127,7 +127,7 @@ func AllRepairs(clusters []cluster.Cluster, instr instrumentation.RepairInstrume
 				if presence.Present && presence.Score >= highestScore {
 					found = true
 					highestScore = presence.Score
-					wasInserted = wasInserted || presence.Inserted // https://github.com/soundcloud/roshi/issues/24
+					wasInserted = wasInserted || presence.Inserted // https://github.com/c2h5oh/roshi/issues/24
 				}
 			}
 

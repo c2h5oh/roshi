@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/soundcloud/roshi/common"
+	"github.com/c2h5oh/roshi/common"
 )
 
 func TestUnionDifferenceOfOne(t *testing.T) {

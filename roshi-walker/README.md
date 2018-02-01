@@ -7,7 +7,7 @@ user-defined rate. It makes Select request for each key, using the
 read repair.
 
 [scan]: http://redis.io/commands/scan
-[send-all-read-all]: https://github.com/soundcloud/roshi/tree/master/farm#read-strategies
+[send-all-read-all]: https://github.com/c2h5oh/roshi/tree/master/farm#read-strategies
 
 ## Getting and building
 

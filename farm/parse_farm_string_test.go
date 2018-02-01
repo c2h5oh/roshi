@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/soundcloud/roshi/instrumentation"
-	"github.com/soundcloud/roshi/pool"
+	"github.com/c2h5oh/roshi/instrumentation"
+	"github.com/c2h5oh/roshi/pool"
 )
 
 func TestStripWhitespace(t *testing.T) {

@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/c2h5oh/roshi/common"
 	"github.com/gorilla/pat"
-	"github.com/soundcloud/roshi/common"
 )
 
 func TestEvaluateScalarPercentage(t *testing.T) {

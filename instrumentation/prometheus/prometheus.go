@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/c2h5oh/roshi/instrumentation"
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/soundcloud/roshi/instrumentation"
 )
 
 // Satisfaction guaranteed.
