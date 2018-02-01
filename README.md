@@ -1,4 +1,4 @@
-# roshi [![Build Status](https://travis-ci.org/soundcloud/roshi.png)](https://travis-ci.org/soundcloud/roshi) [![GoDoc](https://godoc.org/github.com/c2h5oh/roshi?status.svg)](http://godoc.org/github.com/c2h5oh/roshi)
+# roshi [![Build Status](https://travis-ci.org/c2h5oh/roshi.png)](https://travis-ci.org/c2h5oh/roshi) [![GoDoc](https://godoc.org/github.com/c2h5oh/roshi?status.svg)](http://godoc.org/github.com/c2h5oh/roshi)
 
 Roshi implements a time-series event storage via a LWW-element-set CRDT with
 limited inline garbage collection. Roshi is a stateless, distributed layer on
