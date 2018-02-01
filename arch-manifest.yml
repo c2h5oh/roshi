@@ -1,0 +1,11 @@
+image: pressly/roshi:0.0.3
+manifests:
+- image: pressly/roshi:0.0.3-amd64
+  platform:
+    architecture: amd64
+    os: linux
+
+- image: pressly/roshi:0.0.3-arm
+  platform:
+    architecture: arm
+    os: linux
